@@ -1,0 +1,16 @@
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background: red;
+    color: white;
+    transition: 0.8s ease;
+}
+
+button:hover{
+    cursor: pointer;
+    background: rgb(0, 0, 0);
+    padding: 15px 25px;
+    transition: 1s ease;
+}

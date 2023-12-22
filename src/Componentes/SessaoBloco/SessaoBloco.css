@@ -1,0 +1,18 @@
+.sectionBlock{
+    text-align: center;
+    color: black;
+    font-size: 22px;
+    padding: 32px;
+}
+
+.sectionBlock h3{
+    border-bottom: 3px solid rgb(14, 170, 0);
+    display: inline-block;
+    border-radius: 0 0 6px 6px;
+}
+
+.sectionBlock ul{
+    display: flex; 
+    gap: 15px;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,35 @@
+.bloco{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 3%;
+}
+
+.ID{
+    align-self: flex-end;
+    padding-right: 10px;
+    margin: 0;
+}
+
+.bloco img{
+    width: 40%;
+    border-radius: 50px;
+}
+
+.bloco h2{
+    font-size: 16px;
+    margin-bottom: 0;
+    color: rgb(110, 110, 231);
+}
+
+.bloco p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 3%;
+}

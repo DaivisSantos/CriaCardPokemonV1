@@ -1,0 +1,21 @@
+import { useState } from 'react'
+import './CampoTexto.css'
+
+const CampoTexto = (props) => {
+
+    const [valor, useValor] = useState('Apollo')
+
+    const AoDigitar= (event) => {
+        useValor(event.target.value)
+        console.log('O valor do input é: ' + valor.toUpperCase())
+    }
+
+    return (
+        <div className='campotexto'>
+            <label>{props.label}</label>
+            <input value={valor} onChange={AoDigitar} required={props.obrigatorio} placeholder={props.input}/>
+        </div>
+    )
+}
+
+export default CampoTexto;

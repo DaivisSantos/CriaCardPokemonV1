@@ -1,0 +1,9 @@
+header {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(red 47.3%, black 15%, white 55%);
+}
+
+header img {
+    width: 50%;
+}

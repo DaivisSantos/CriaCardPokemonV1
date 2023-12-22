@@ -1,0 +1,30 @@
+.rodape{
+    /* rgb(226, 92, 92) */
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+}
+
+.redes{
+    display: flex;
+    gap: 20px;
+}
+
+.redes img{
+    width: 20%;
+}
+
+.logo img{
+    width: 15%;
+}
+
+
+.paragrafo{
+    font-weight: 700;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    white-space: nowrap;
+}
